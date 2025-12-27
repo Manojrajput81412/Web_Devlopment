@@ -7,18 +7,24 @@
 </head>
 <body>
     <style>
-        table, th, td {
+        table, th, td, tr {
             border: 2px solid black;
             border-collapse: collapse;
+            text-align: center;
         }
-        th, td {
+        th, td,tr {
             padding: 5px;
         }
     </style>
     <table>
         <caption>Normal Blood Sugar Levels</caption>
         
-       
+         <tr>
+            <th rowspan=2 >Satet of Health</th>
+            <th colspan=2>Fasting value</th>
+            <th>after eating</th>
+        </tr>
+
         <tr>
             <th>Minimum</th>
             <th>Maximum</th>
@@ -43,5 +49,7 @@
             <td>More than 200</td>
         </tr>
         </table>
+
+       
 </body>
 </html>
